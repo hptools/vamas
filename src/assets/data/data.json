@@ -1,0 +1,34 @@
+{
+  "tests": {
+    "vamas": {
+      "group": "vamas",
+      "details": "This are the details",
+      "description": "This is the VAMAS test description, etc.",
+      "image": null
+    },
+    "vam": {
+      "group": "vam",
+      "details": "This are the details",
+      "description": "This is the test description, etc.",
+      "image": null
+    },
+    "vamro": {
+      "group": "vam",
+      "details": "This are the details",
+      "description": "This is the test description, etc.",
+      "image": null
+    },
+    "yoyo": {
+      "group": "vam",
+      "details": "This are the details",
+      "description": "This is the test description, etc.",
+      "image": null
+    },
+    "vam rampa": {
+      "group": "vam",
+      "details": "This are the details",
+      "description": "This is the test description, etc.",
+      "image": null
+    }
+  }
+}
