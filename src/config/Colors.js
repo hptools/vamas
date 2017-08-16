@@ -1,6 +1,6 @@
 export default {
   backgroundColor: '#141519',
-  primaryColor: '',
+  primaryColor: 'green',
   tabColor: '#23252A',
   selectedTabColor: '#23252A',
   tabTextColor: 'white',

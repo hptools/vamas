@@ -1,7 +1,7 @@
 import { Platform } from 'react-native';
 import Colors from './Colors';
 
-export const HeaderStyle = Platform.select({
+export const headerStyle = Platform.select({
   ios: {
     backgroundColor: Colors.navBarColor,
     shadowColor: 'black',
@@ -15,6 +15,10 @@ export const HeaderStyle = Platform.select({
   }
 });
 
-export const HeaderTitleStyle = {
+export const headerTitleStyle = {
+  color: Colors.navBarTextColor
+};
+
+export const headerBackTitleStyle = {
   color: Colors.navBarTextColor
 };

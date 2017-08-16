@@ -3,7 +3,7 @@ import { TabNavigator, StackNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import MainScene from './scenes/MainScene';
 import SettingsScene from './scenes/SettingsScene';
-import { HeaderStyle, HeaderTitleStyle } from './config/Header';
+import { headerStyle, headerTitleStyle } from './config/Header';
 import Colors from './config/Colors';
 
 const tabIcon = (iconName, focused) => (
@@ -25,8 +25,8 @@ const TabNav = TabNavigator({
         navigationOptions: {
           title: 'Tests',
           headerBackTitle: null,
-          headerStyle: HeaderStyle,
-          headerTitleStyle: HeaderTitleStyle
+          headerStyle,
+          headerTitleStyle
         }
       }
     }, {
@@ -44,8 +44,8 @@ const TabNav = TabNavigator({
         screen: SettingsScene,
         navigationOptions: {
           title: 'Settings',          
-          headerStyle: HeaderStyle,
-          headerTitleStyle: HeaderTitleStyle
+          headerStyle,
+          headerTitleStyle
         }
       }
     }, {
